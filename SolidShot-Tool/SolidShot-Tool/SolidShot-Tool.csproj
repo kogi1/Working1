@@ -30,8 +30,8 @@
     <PublisherName>Raphael Planer</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
-    <ApplicationRevision>5</ApplicationRevision>
-    <ApplicationVersion>2.3.0.%2a</ApplicationVersion>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>2.4.4.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -165,6 +165,12 @@
     <Compile Include="Main\Vorschläge.Designer.cs">
       <DependentUpon>Vorschläge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\VorschlägeControll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\VorschlägeControll.Designer.cs">
+      <DependentUpon>VorschlägeControll.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Main\Aufgaben.resx">
       <DependentUpon>Aufgaben.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kunden\NewKun.resx">
       <DependentUpon>NewKun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\VorschlägeControll.resx">
+      <DependentUpon>VorschlägeControll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

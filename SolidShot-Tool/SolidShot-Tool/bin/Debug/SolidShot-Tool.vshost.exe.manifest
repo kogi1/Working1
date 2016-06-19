@@ -80,14 +80,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="4192224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="4938208">
       <assemblyIdentity name="SolidShot-Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w20+aDdNu2JDUpTplMsd/jjLLNKmDNV8+fy2wR1kNu8=</dsig:DigestValue>
+        <dsig:DigestValue>kmb9CErpSgDskUAHVvrRWm3bT1akiT818SpdAghogto=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,15 +110,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>pZr0preCeSdsvR/PC7pZ3AFzGG3Y0OyFZEk/Hginv/E=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="MetroFramework.txt" size="1266">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+yV6adEVlpUIOiH/IdsfqaixKo0MB7DiB/hBOyI4wKw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Program Group.ico" size="370070">

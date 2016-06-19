@@ -20,7 +20,7 @@ namespace SolidShot_Tool
             InitializeComponent();
         }
         string test = "";
-        string hwid = Value();
+        public static string hwid = Value();
         private static string _fingerPrint = string.Empty;
         private static string Value()
         {
@@ -317,14 +317,10 @@ namespace SolidShot_Tool
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
-            
-            if(hwid == "9729-EB9A-7EBD-7BA8-EFB0-CB0D-8D6C-A213")
-            {
-                MessageBox.Show("ok");//Formular
-            }else
-            {
-                MessageBox.Show("false");//Listbox mit allen Vorschlägen 
-            }
+ 
+                Vorschläge alph = new Vorschläge();
+                alph.Show();
+
         }
     }
 }

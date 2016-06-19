@@ -17,6 +17,11 @@ namespace SolidShot_Tool
         public string Tel = ""; //Telefonnummer
         public string Web = ""; //Website
 
+        public static string hwid1 = "9729-EB9A-7EBD-7BA8-EFB0-CB0D-8D6C-A213";
+        public static string hwid2 = "";
+        public static string hwid3 = "";
+        public static string hwid4 = "";
+        public static string hwid5 = "";
 
 
     }
