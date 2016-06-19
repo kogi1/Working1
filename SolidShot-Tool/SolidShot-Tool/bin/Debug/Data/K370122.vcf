@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Heinritzi
+N:;
+ORG:Mc Donalds GmbH
+TEL;TYPE=WORK,VOICE:066666666
+EMAIL;TYPE=INTERNET:mci@mc.don.at
+URL:www.mci.at
+END:VCARD

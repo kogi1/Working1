@@ -1,0 +1,65 @@
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.pdb
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.dll
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csprojResolveAssemblyReference.cache
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Daten.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Main.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Properties.Resources.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Status.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csproj.GenerateResource.Cache
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.pdb
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewAuf.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewKun.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.StatusSelect.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.DatenSelect.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.pdb
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.pdb
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.dll
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csprojResolveAssemblyReference.cache
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Daten.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.DatenSelect.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Main.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewAuf.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewKun.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Properties.Resources.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Status.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.StatusSelect.resources
+C:\Users\Raffi\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csproj.GenerateResource.Cache
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\zxing.dll
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\zxing.pdb
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\zxing.xml
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.pdb
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.pdb
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.dll
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\zxing.pdb
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\bin\Debug\zxing.xml
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csprojResolveAssemblyReference.cache
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Daten.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.DatenSelect.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Main.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewAuf.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.NewKun.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Properties.Resources.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Status.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.StatusSelect.resources
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csproj.GenerateResource.Cache
+C:\Users\Raffi\Desktop\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Aufgaben.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Aufgaben.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.loading.resources
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.config
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.manifest
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.application
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe.manifest
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.application
+C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.Design.dll
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.config
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.pdb

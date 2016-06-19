@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Hammer gangster
+N:;
+ORG:Test
+TEL;TYPE=WORK,VOICE:78787969
+EMAIL;TYPE=INTERNET:test@test.de
+URL:www.test.de
+END:VCARD
