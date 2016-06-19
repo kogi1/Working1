@@ -25,7 +25,7 @@ namespace SolidShot_Tool
         private static string Value()
         {
             //You don't need to generate the HWID again if it has already been generated. This is better for performance
-            //Also, your HWID generally doesn't change when your computer is turned on but it can happen.
+            //Also, your HWID generally doesn't change when your computer is turned on but it cgnfhan happen.
             //It's up to you if you want to keep generating a HWID or not if the function is called.
             if (string.IsNullOrEmpty(_fingerPrint))
             {

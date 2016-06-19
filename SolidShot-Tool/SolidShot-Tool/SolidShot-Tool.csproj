@@ -102,82 +102,88 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aufgaben.cs">
+    <Compile Include="Main\Aufgaben.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aufgaben.Designer.cs">
+    <Compile Include="Main\Aufgaben.Designer.cs">
       <DependentUpon>Aufgaben.cs</DependentUpon>
     </Compile>
-    <Compile Include="Daten.cs">
+    <Compile Include="Kunden\Daten.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Daten.Designer.cs">
+    <Compile Include="Kunden\Daten.Designer.cs">
       <DependentUpon>Daten.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatenSelect.cs">
+    <Compile Include="Kunden\DatenSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatenSelect.Designer.cs">
+    <Compile Include="Kunden\DatenSelect.Designer.cs">
       <DependentUpon>DatenSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="loading.cs">
+    <Compile Include="Main\loading.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loading.Designer.cs">
+    <Compile Include="Main\loading.Designer.cs">
       <DependentUpon>loading.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewAuf.cs">
+    <Compile Include="Aufträge\NewAuf.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewAuf.Designer.cs">
+    <Compile Include="Aufträge\NewAuf.Designer.cs">
       <DependentUpon>NewAuf.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewKun.cs">
+    <Compile Include="Kunden\NewKun.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewKun.Designer.cs">
+    <Compile Include="Kunden\NewKun.Designer.cs">
       <DependentUpon>NewKun.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Main\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Main\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Status.cs">
+    <Compile Include="Aufträge\Status.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Status.Designer.cs">
+    <Compile Include="Aufträge\Status.Designer.cs">
       <DependentUpon>Status.cs</DependentUpon>
     </Compile>
-    <Compile Include="StatusSelect.cs">
+    <Compile Include="Aufträge\StatusSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StatusSelect.Designer.cs">
+    <Compile Include="Aufträge\StatusSelect.Designer.cs">
       <DependentUpon>StatusSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vars.cs" />
-    <EmbeddedResource Include="Aufgaben.resx">
+    <Compile Include="Main\Vars.cs" />
+    <Compile Include="Main\Vorschläge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Vorschläge.Designer.cs">
+      <DependentUpon>Vorschläge.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main\Aufgaben.resx">
       <DependentUpon>Aufgaben.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Daten.resx">
+    <EmbeddedResource Include="Kunden\Daten.resx">
       <DependentUpon>Daten.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatenSelect.resx">
+    <EmbeddedResource Include="Kunden\DatenSelect.resx">
       <DependentUpon>DatenSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loading.resx">
+    <EmbeddedResource Include="Main\loading.resx">
       <DependentUpon>loading.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Main\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewAuf.resx">
+    <EmbeddedResource Include="Aufträge\NewAuf.resx">
       <DependentUpon>NewAuf.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewKun.resx">
+    <EmbeddedResource Include="Kunden\NewKun.resx">
       <DependentUpon>NewKun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -190,11 +196,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Status.resx">
+    <EmbeddedResource Include="Aufträge\Status.resx">
       <DependentUpon>Status.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StatusSelect.resx">
+    <EmbeddedResource Include="Aufträge\StatusSelect.resx">
       <DependentUpon>StatusSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Vorschläge.resx">
+      <DependentUpon>Vorschläge.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
@@ -211,7 +220,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
-    <Content Include="MetroFramework.txt" />
     <Content Include="Program Group.ico" />
   </ItemGroup>
   <ItemGroup>
