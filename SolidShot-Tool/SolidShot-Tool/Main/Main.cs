@@ -322,5 +322,17 @@ namespace SolidShot_Tool
                 alph.Show();
 
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)//Kundendatenändern
+        {
+            SelÄndern abc = new SelÄndern();
+            abc.Show();
+            this.Hide();
+        }
+
+        private void metroButton5_Click(object sender, EventArgs e)//Mailcenter
+        {
+
+        }
     }
 }

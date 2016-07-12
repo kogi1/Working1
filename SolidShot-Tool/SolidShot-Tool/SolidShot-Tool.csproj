@@ -102,6 +102,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kunden\DatenÄndern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kunden\DatenÄndern.Designer.cs">
+      <DependentUpon>DatenÄndern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\MailMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\MailMain.Designer.cs">
+      <DependentUpon>MailMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\checkMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\checkMail.Designer.cs">
+      <DependentUpon>checkMail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main\Aufgaben.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +189,21 @@
     <Compile Include="Main\VorschlägeControll.Designer.cs">
       <DependentUpon>VorschlägeControll.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kunden\SelÄndern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kunden\SelÄndern.Designer.cs">
+      <DependentUpon>SelÄndern.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Kunden\DatenÄndern.resx">
+      <DependentUpon>DatenÄndern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\checkMail.resx">
+      <DependentUpon>checkMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\MailMain.resx">
+      <DependentUpon>MailMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Aufgaben.resx">
       <DependentUpon>Aufgaben.cs</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +247,9 @@
     <EmbeddedResource Include="Main\Vorschläge.resx">
       <DependentUpon>Vorschläge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kunden\SelÄndern.resx">
+      <DependentUpon>SelÄndern.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -243,6 +279,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

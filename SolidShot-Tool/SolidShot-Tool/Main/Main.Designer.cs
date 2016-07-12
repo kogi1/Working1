@@ -55,6 +55,7 @@
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.metroButton5 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -111,6 +112,7 @@
             this.metroButton1.Size = new System.Drawing.Size(132, 41);
             this.metroButton1.TabIndex = 7;
             this.metroButton1.Text = "Kundendaten ändern";
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // notifyIcon1
             // 
@@ -340,11 +342,21 @@
             this.metroButton4.Text = "Verbesserungsvorschläge";
             this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
+            // metroButton5
+            // 
+            this.metroButton5.Location = new System.Drawing.Point(23, 318);
+            this.metroButton5.Name = "metroButton5";
+            this.metroButton5.Size = new System.Drawing.Size(132, 41);
+            this.metroButton5.TabIndex = 10;
+            this.metroButton5.Text = "Mailcenter";
+            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 352);
+            this.ClientSize = new System.Drawing.Size(506, 388);
+            this.Controls.Add(this.metroButton5);
             this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.metroTabControl1);
             this.Controls.Add(this.metroButton1);
@@ -397,6 +409,7 @@
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton4;
+        private MetroFramework.Controls.MetroButton metroButton5;
     }
 }
 
