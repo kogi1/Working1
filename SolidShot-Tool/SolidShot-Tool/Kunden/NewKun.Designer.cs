@@ -51,6 +51,8 @@
             this.txtTele = new MetroFramework.Controls.MetroTextBox();
             this.txtWebs = new MetroFramework.Controls.MetroTextBox();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,7 +126,7 @@
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(27, 197);
+            this.metroLabel5.Location = new System.Drawing.Point(23, 197);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(109, 19);
             this.metroLabel5.TabIndex = 7;
@@ -143,7 +145,8 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(155, 139);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(250, 23);
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(151, 23);
             this.txtPass.TabIndex = 9;
             // 
             // txtUnter
@@ -217,18 +220,39 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(140, 353);
+            this.metroButton2.Location = new System.Drawing.Point(140, 371);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(128, 35);
             this.metroButton2.TabIndex = 19;
             this.metroButton2.Text = "Absenden";
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
+            // metroButton3
+            // 
+            this.metroButton3.Location = new System.Drawing.Point(312, 139);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(93, 23);
+            this.metroButton3.TabIndex = 20;
+            this.metroButton3.Text = "Generate";
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
+            // 
+            // metroCheckBox1
+            // 
+            this.metroCheckBox1.AutoSize = true;
+            this.metroCheckBox1.Location = new System.Drawing.Point(155, 342);
+            this.metroCheckBox1.Name = "metroCheckBox1";
+            this.metroCheckBox1.Size = new System.Drawing.Size(250, 15);
+            this.metroCheckBox1.TabIndex = 21;
+            this.metroCheckBox1.Text = "Kunde per mail über Passwort informieren?";
+            this.metroCheckBox1.UseVisualStyleBackColor = true;
+            // 
             // NewKun
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 410);
+            this.ClientSize = new System.Drawing.Size(434, 429);
+            this.Controls.Add(this.metroCheckBox1);
+            this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.txtWebs);
             this.Controls.Add(this.txtTele);
@@ -285,5 +309,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton metroButton3;
+        private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
     }
 }
