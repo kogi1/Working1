@@ -332,7 +332,9 @@ namespace SolidShot_Tool
 
         private void metroButton5_Click(object sender, EventArgs e)//Mailcenter
         {
-
+            checkMail abc = new checkMail();
+            abc.Show();
+            this.Hide();
         }
     }
 }

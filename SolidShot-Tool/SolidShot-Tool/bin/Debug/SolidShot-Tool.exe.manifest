@@ -80,14 +80,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="4938208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="5317600">
       <assemblyIdentity name="SolidShot-Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>k2pIExr+9D5/S5OP2cmSwKnrk0cfgX/QiOzH02wYTkc=</dsig:DigestValue>
+        <dsig:DigestValue>83qCnRspruR7oDGtlpSY08rPgoPmJrGRS3B/fOoTYAQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

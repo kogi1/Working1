@@ -117,3 +117,7 @@ C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\Sol
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csproj.GenerateResource.Cache
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe.manifest
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.application
+C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.DatenÄndern.resources
+C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.checkMail.resources
+C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.MailMain.resources
+C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.SelÄndern.resources

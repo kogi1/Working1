@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -54,6 +57,12 @@
             this.metroButton1.Text = "Weiter";
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
+            // metroStyleManager1
+            // 
+            this.metroStyleManager1.Owner = this;
+            this.metroStyleManager1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroStyleManager1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
             // SelÄndern
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -65,6 +74,7 @@
             this.Text = "SelÄndern";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SelÄndern_FormClosing);
             this.Load += new System.EventHandler(this.SelÄndern_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -73,5 +83,6 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Components.MetroStyleManager metroStyleManager1;
     }
 }

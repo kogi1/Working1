@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager(this.components);
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,11 +40,21 @@
             this.metroStyleManager1.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroStyleManager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(178, 171);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroButton1.TabIndex = 0;
+            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
             // checkMail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(488, 362);
+            this.Controls.Add(this.metroButton1);
             this.Name = "checkMail";
             this.Text = "checkMail";
             this.Load += new System.EventHandler(this.checkMail_Load);
@@ -55,5 +66,6 @@
         #endregion
 
         private MetroFramework.Components.MetroStyleManager metroStyleManager1;
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }
