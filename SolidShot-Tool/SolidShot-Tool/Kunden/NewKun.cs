@@ -113,7 +113,7 @@ namespace SolidShot_Tool
                     client.Credentials = new System.Net.NetworkCredential("noreply@solidshot.at", "Kogikogi1q2w3e");
                     objeto_mail.From = new MailAddress("noreply@solidshot.at");
                     objeto_mail.To.Add(new MailAddress(txtMail.Text));
-                    objeto_mail.Subject = "Auftragsstautus wurde geändert";
+                    objeto_mail.Subject = "Kundenkonto wurde angelegt";
                     objeto_mail.Body = msg;
                     client.Send(objeto_mail);
                 }

@@ -121,3 +121,7 @@ C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\Sol
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.checkMail.resources
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.MailMain.resources
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.SelÄndern.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.DatenÄndern.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.checkMail.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.MailMain.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.SelÄndern.resources

@@ -80,14 +80,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="5317600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SolidShot-Tool.exe" size="5321696">
       <assemblyIdentity name="SolidShot-Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>83qCnRspruR7oDGtlpSY08rPgoPmJrGRS3B/fOoTYAQ=</dsig:DigestValue>
+        <dsig:DigestValue>Z13egskZRlgrt77OsCgmlgbfYiFUTgpOXD4lPfqkhsw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -121,13 +121,13 @@
       <dsig:DigestValue>spwcOE3olr5pHZ39wMu1MJEEeMeImaaOeuxHvpK/aoU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SolidShot-Tool.exe.config" size="158">
+  <file name="SolidShot-Tool.exe.config" size="161">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xSL5qCqP5KhGdIkpvYOVK5Xixz9Rw3NoQaK0PLDzQSQ=</dsig:DigestValue>
+      <dsig:DigestValue>1SR2HBfPDeqUEJ8/zazS7LZ1UBFf+eAwf3jAUFVBnv4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
