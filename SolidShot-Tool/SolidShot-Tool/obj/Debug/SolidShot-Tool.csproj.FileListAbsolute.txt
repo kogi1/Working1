@@ -125,3 +125,5 @@ C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-To
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.checkMail.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.MailMain.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.SelÄndern.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.FTP_Backup.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.FTP_Main.resources

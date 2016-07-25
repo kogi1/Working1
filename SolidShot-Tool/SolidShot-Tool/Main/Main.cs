@@ -336,5 +336,12 @@ namespace SolidShot_Tool
             abc.Show();
             this.Hide();
         }
+
+        private void metroButton6_Click(object sender, EventArgs e)
+        {
+            FTP_Main asf = new FTP_Main();
+            asf.Show();
+            this.Hide();
+        }
     }
 }

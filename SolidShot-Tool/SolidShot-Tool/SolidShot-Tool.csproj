@@ -102,6 +102,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FTP\FTP-Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP\FTP-Backup.Designer.cs">
+      <DependentUpon>FTP-Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTP\FTP-Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP\FTP-Main.Designer.cs">
+      <DependentUpon>FTP-Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kunden\DatenÄndern.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +207,12 @@
     <Compile Include="Kunden\SelÄndern.Designer.cs">
       <DependentUpon>SelÄndern.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FTP\FTP-Backup.resx">
+      <DependentUpon>FTP-Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTP\FTP-Main.resx">
+      <DependentUpon>FTP-Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kunden\DatenÄndern.resx">
       <DependentUpon>DatenÄndern.cs</DependentUpon>
     </EmbeddedResource>
