@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Windows.Forms;
@@ -105,8 +106,9 @@ namespace SolidShot_Tool
             }
             StatusUP = ComStat.Text;
 
-
-            MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/update.php?1=" + ArtUP + "&2=" + InfUP + "&3=" + PreiUP + "&4=" + EndeUP + "&5=" + StatusUP + "&AufNr=" + txtAufNr.Text + "&6=" + abg));
+            WebClient wc = new WebClient();
+            wc.Encoding = Encoding.UTF8;
+            MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/update.php?1=" + ArtUP + "&2=" + InfUP + "&3=" + PreiUP + "&4=" + EndeUP + "&5=" + StatusUP + "&AufNr=" + txtAufNr.Text + "&6=" + abg));
 
             DialogResult dialogResult = MessageBox.Show("Soll der Kunde eine Benachrichtigung erhalten?", "Benachrichtigung", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)

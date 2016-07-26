@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -41,8 +42,9 @@ namespace SolidShot_Tool
             if (listBox1.SelectedItem != null)
             {
                 string select = listBox1.SelectedItem.ToString();
-
-               MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/abfrage_vor_fin.php?s=" + select.Split(new string[] { "  |  ID:" }, StringSplitOptions.None)[1]));
+                WebClient wc = new WebClient();
+                wc.Encoding = Encoding.UTF8;
+                MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/abfrage_vor_fin.php?s=" + select.Split(new string[] { "  |  ID:" }, StringSplitOptions.None)[1]));
                 listBox1.Items.Clear();
                 auf();
             }

@@ -9,6 +9,7 @@ using System.Text;
 using System.IO;
 using System.Windows.Forms;
 using ZXing;
+using System.Net;
 
 namespace SolidShot_Tool
 {
@@ -129,6 +130,10 @@ namespace SolidShot_Tool
             string msg = k1 + Environment.NewLine + u1 + Environment.NewLine + a1 + Environment.NewLine + b1 + Environment.NewLine
                 + m1 + Environment.NewLine + t1 + Environment.NewLine + w1;
             MessageBox.Show(msg);
+
+            WebClient wc = new WebClient();
+            wc.Encoding = Encoding.UTF8;
+            //Fehlt das Update
         }
     }
 }

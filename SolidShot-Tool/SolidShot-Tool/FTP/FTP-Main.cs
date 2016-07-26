@@ -35,5 +35,19 @@ namespace SolidShot_Tool
             p = System.Diagnostics.Process.GetCurrentProcess();
             p.Kill();
         }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            FTP_Browser_Kunden abc = new FTP_Browser_Kunden();
+            abc.Show();
+            this.Hide();
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            Main abc = new Main();
+            abc.Show();
+            this.Hide();
+        }
     }
 }

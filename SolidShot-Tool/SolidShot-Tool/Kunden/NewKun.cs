@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Windows.Forms;
@@ -50,7 +51,9 @@ namespace SolidShot_Tool
         }
         private void DatenAnDB()
         {
-            MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/eintrag.php?1=" + KdNr + "&2=" + Pass + "&3=" + Unter + "&4=" + Ansp + "&5=" + Bran + "&6=" + Mail + "&7=" + Tele + "&8=" + Webs));
+            WebClient wc = new WebClient();
+            wc.Encoding = Encoding.UTF8;
+            MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/eintrag.php?1=" + KdNr + "&2=" + Pass + "&3=" + Unter + "&4=" + Ansp + "&5=" + Bran + "&6=" + Mail + "&7=" + Tele + "&8=" + Webs));
             
         }
         private void metroButton2_Click(object sender, EventArgs e)
@@ -117,8 +120,51 @@ namespace SolidShot_Tool
                     objeto_mail.Body = msg;
                     client.Send(objeto_mail);
                 }
-                DatenAnDB();
                 
+
+                WebRequest request = WebRequest.Create("ftp://178.33.211.91/" + txtKdNr.Text);
+                request.Method = WebRequestMethods.Ftp.MakeDirectory;
+                request.Credentials = new NetworkCredential("solidshot2", "Kogikogi1q2w3e");
+                using (var resp = (FtpWebResponse)request.GetResponse())
+                {
+                    Console.WriteLine(resp.StatusCode);
+                }
+                string[] lines = {
+                    "Kundennummer: " + txtKdNr.Text,
+                    "Unternehmen: " + txtUnter.Text,
+                    "Ansprech Person: " + txtAnsp.Text,
+                    "Branche: " + txtBran.Text,
+                    "E-Mail: " + txtMail.Text,
+                    "Tel: " + txtTele.Text,
+                    "Web: " + txtWebs.Text
+                };
+                System.IO.File.WriteAllLines(txtKdNr.Text + ".txt", lines);
+                 
+                FtpWebRequest ftpClient = (FtpWebRequest)FtpWebRequest.Create("ftp://178.33.211.91/" + txtKdNr.Text + "/" + txtKdNr.Text + ".txt");
+                ftpClient.Credentials = new System.Net.NetworkCredential("solidshot2", "Kogikogi1q2w3e");
+                ftpClient.Method = System.Net.WebRequestMethods.Ftp.UploadFile;
+                ftpClient.UseBinary = true;
+                ftpClient.KeepAlive = true;
+                System.IO.FileInfo fi = new System.IO.FileInfo(txtKdNr.Text + ".txt");
+                ftpClient.ContentLength = fi.Length;
+                byte[] buffer = new byte[4097];
+                int bytes = 0;
+                int total_bytes = (int)fi.Length;
+                System.IO.FileStream fs = fi.OpenRead();
+                System.IO.Stream rs = ftpClient.GetRequestStream();
+                while (total_bytes > 0)
+                {
+                    bytes = fs.Read(buffer, 0, buffer.Length);
+                    rs.Write(buffer, 0, bytes);
+                    total_bytes = total_bytes - bytes;
+                }
+                //fs.Flush();
+                fs.Close();
+                rs.Close();
+                System.IO.File.Delete(txtKdNr.Text + ".txt");
+                
+
+                DatenAnDB();
                 Main beta = new Main();
                 this.Hide();
                 beta.Show();

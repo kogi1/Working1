@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CD5026E3-1FA4-486E-B1C2-C7C742548B0A}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SolidShot_Tool</RootNamespace>
     <AssemblyName>SolidShot-Tool</AssemblyName>
@@ -30,8 +30,8 @@
     <PublisherName>Raphael Planer</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
-    <ApplicationRevision>6</ApplicationRevision>
-    <ApplicationVersion>2.4.4.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.5.4.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -73,7 +73,20 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Calendar.NET">
+      <HintPath>..\..\..\..\..\Desktop\Calendar.NET.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
       <Private>True</Private>
@@ -102,6 +115,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kalender\Kalender_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalender\Kalender_Main.Designer.cs">
+      <DependentUpon>Kalender_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalender\Kalender_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalender\Kalender_Add.Designer.cs">
+      <DependentUpon>Kalender_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Checker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Checker.Designer.cs">
+      <DependentUpon>Checker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTP\FTP-Browser-Kunden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTP\FTP-Browser-Kunden.Designer.cs">
+      <DependentUpon>FTP-Browser-Kunden.cs</DependentUpon>
+    </Compile>
     <Compile Include="FTP\FTP-Backup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -210,8 +247,17 @@
     <EmbeddedResource Include="FTP\FTP-Backup.resx">
       <DependentUpon>FTP-Backup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FTP\FTP-Browser-Kunden.resx">
+      <DependentUpon>FTP-Browser-Kunden.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FTP\FTP-Main.resx">
       <DependentUpon>FTP-Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalender\Kalender_Add.resx">
+      <DependentUpon>Kalender_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalender\Kalender_Main.resx">
+      <DependentUpon>Kalender_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kunden\DatenÄndern.resx">
       <DependentUpon>DatenÄndern.cs</DependentUpon>
@@ -230,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kunden\DatenSelect.resx">
       <DependentUpon>DatenSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Checker.resx">
+      <DependentUpon>Checker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\loading.resx">
       <DependentUpon>loading.cs</DependentUpon>
@@ -269,6 +318,7 @@
       <DependentUpon>SelÄndern.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

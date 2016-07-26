@@ -63,8 +63,6 @@ C:\Users\r11pl\Google Drive\Solid Shot\Programm\SolidShot-Tool\SolidShot-Tool\bi
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.config
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.pdb
-C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.manifest
-C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.application
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.pdb
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\MetroFramework.Design.dll
@@ -86,8 +84,6 @@ C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-To
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.StatusSelect.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Vorschläge.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.csproj.GenerateResource.Cache
-C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe.manifest
-C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.application
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.VorschlägeControll.resources
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.config
 C:\Users\Raffi\Source\Repos\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe
@@ -127,3 +123,13 @@ C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-To
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.SelÄndern.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.FTP_Backup.resources
 C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.FTP_Main.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.FTP_Browser_Kunden.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.exe.manifest
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\SolidShot-Tool.application
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.TrustInfo.xml
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.exe.manifest
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot-Tool.application
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Checker.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\bin\Debug\Calendar.NET.dll
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Kalender_Add.resources
+C:\Users\r11pl\Documents\GitHubVisualStudio\Working1\SolidShot-Tool\SolidShot-Tool\obj\Debug\SolidShot_Tool.Kalender_Main.resources

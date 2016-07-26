@@ -57,6 +57,7 @@
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
+            this.metroButton7 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -149,6 +150,7 @@
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Projekte";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
+            this.metroTabPage1.Click += new System.EventHandler(this.metroTabPage1_Click);
             // 
             // richTextBox3
             // 
@@ -361,11 +363,21 @@
             this.metroButton6.Text = "FTP-Center";
             this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
+            // metroButton7
+            // 
+            this.metroButton7.Location = new System.Drawing.Point(299, 318);
+            this.metroButton7.Name = "metroButton7";
+            this.metroButton7.Size = new System.Drawing.Size(132, 41);
+            this.metroButton7.TabIndex = 12;
+            this.metroButton7.Text = "Kalender";
+            this.metroButton7.Click += new System.EventHandler(this.metroButton7_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 388);
+            this.Controls.Add(this.metroButton7);
             this.Controls.Add(this.metroButton6);
             this.Controls.Add(this.metroButton5);
             this.Controls.Add(this.metroButton4);
@@ -422,6 +434,7 @@
         private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroButton metroButton5;
         private MetroFramework.Controls.MetroButton metroButton6;
+        private MetroFramework.Controls.MetroButton metroButton7;
     }
 }
 

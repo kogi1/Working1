@@ -10,6 +10,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.Globalization;
+using System.Net;
 
 namespace SolidShot_Tool
 {
@@ -283,7 +284,9 @@ namespace SolidShot_Tool
                 DialogResult dialogResult = MessageBox.Show("Sind Sie sicher das Sie die Aufgabe abschließen möchten?", "Aufgabe Abschließen", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
-                    MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/update1.php?auf=" + allah));
+                    WebClient wc = new WebClient();
+                    wc.Encoding = Encoding.UTF8;
+                    MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/update1.php?auf=" + allah));
                     listBox1.Items.Clear();
                     aufgaben();
                 }
@@ -341,6 +344,18 @@ namespace SolidShot_Tool
         {
             FTP_Main asf = new FTP_Main();
             asf.Show();
+            this.Hide();
+        }
+
+        private void metroTabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton7_Click(object sender, EventArgs e)
+        {
+            Kalender_Main dsad = new Kalender_Main();
+            dsad.Show();
             this.Hide();
         }
     }

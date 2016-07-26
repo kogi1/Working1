@@ -43,9 +43,37 @@ namespace SolidShot_Tool
             metroLabel2.Text = "Öffne Programm...";
             await Task.Delay(2700);
 
-            Main beta = new Main();
-            this.Hide();
-            beta.Show();
+
+            try
+            {
+                string token = System.IO.File.ReadAllText("datalib.dll");
+                if(token == Vars.tok1)
+                {
+                    Main beta = new Main();
+                    this.Hide();
+                    beta.Show();
+                }else if (token == Vars.tok2)
+                {
+                    Main beta = new Main();
+                    this.Hide();
+                    beta.Show();
+                }else
+                {
+                    MessageBox.Show("Nicht berechtigt!");
+                    System.Diagnostics.Process p;
+                    p = System.Diagnostics.Process.GetCurrentProcess();
+                    p.Kill();
+                }
+            }
+            catch (Exception)
+            {
+
+                Checker beta = new Checker();
+                this.Hide();
+                beta.Show();
+            }
+
+            
         }
     }
 }

@@ -38,9 +38,7 @@ namespace SolidShot_Tool
 
         private void Daten_FormClosing(object sender, FormClosingEventArgs e)
         {
-            System.Diagnostics.Process p;
-            p = System.Diagnostics.Process.GetCurrentProcess();
-            p.Kill();
+            
         }
         /*
         txtKdNr

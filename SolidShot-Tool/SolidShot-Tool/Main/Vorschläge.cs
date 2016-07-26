@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -78,7 +79,9 @@ namespace SolidShot_Tool
                 MessageBox.Show("Es müssen alle Felder ausgefüllt sein!");
                 return;
             }
-            MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/new_vorschlag.php?1=" + Name + "&2=" + Vorschlag));
+            WebClient wc = new WebClient();
+            wc.Encoding = Encoding.UTF8;
+            MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/new_vorschlag.php?1=" + Name + "&2=" + Vorschlag));
             this.Close();
         }
     }

@@ -37,6 +37,9 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.txtFile = new MetroFramework.Controls.MetroTextBox();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,11 +59,11 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(181, 195);
+            this.metroButton1.Location = new System.Drawing.Point(167, 195);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.Text = "Upload";
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroProgressBar1
@@ -83,18 +86,48 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(272, 166);
+            this.metroButton2.Location = new System.Drawing.Point(262, 166);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(75, 23);
             this.metroButton2.TabIndex = 3;
-            this.metroButton2.Text = "metroButton2";
+            this.metroButton2.Text = "Datei wählen";
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(78, 251);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(108, 19);
+            this.metroLabel1.TabIndex = 4;
+            this.metroLabel1.Text = "Prozent geladen:";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(123, 270);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(63, 19);
+            this.metroLabel2.TabIndex = 5;
+            this.metroLabel2.Text = "Time left:";
+            // 
+            // metroButton3
+            // 
+            this.metroButton3.Location = new System.Drawing.Point(327, 270);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(96, 37);
+            this.metroButton3.TabIndex = 6;
+            this.metroButton3.Text = "Zurück";
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // FTP_Backup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 314);
+            this.Controls.Add(this.metroButton3);
+            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.txtFile);
             this.Controls.Add(this.metroProgressBar1);
@@ -108,6 +141,7 @@
             this.Load += new System.EventHandler(this.FTP_Backup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -120,5 +154,8 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroTextBox txtFile;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroButton metroButton3;
     }
 }

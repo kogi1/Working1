@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Windows.Forms;
 
@@ -39,7 +40,9 @@ namespace SolidShot_Tool
                 text = txtAufgabenstellung.Text;
 
                 auftrag = beauf + ": " + auftrag;
-                MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/aufgaben_eintrag.php?1=" + auftrag + "&2=" + text));
+                WebClient wc = new WebClient();
+                wc.Encoding = Encoding.UTF8;
+                MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/aufgaben_eintrag.php?1=" + auftrag + "&2=" + text));
                 Main beta = new Main();
                 beta.Show();
                 this.Hide();

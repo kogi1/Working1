@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Windows.Forms;
 /*
@@ -70,7 +71,9 @@ namespace SolidShot_Tool
             }
             else
             {
-                MessageBox.Show((new System.Net.WebClient()).DownloadString("http://178.33.211.91:1337/eintrag_auftag.php?1=" + KdNr + "&2=" + Art + "&3=" + Info + "&4=" + Prei + "&5=" + Begi + "&6=" + Ende));
+                WebClient wc = new WebClient();
+                wc.Encoding = Encoding.UTF8;
+                MessageBox.Show(wc.DownloadString("http://178.33.211.91:1337/eintrag_auftag.php?1=" + KdNr + "&2=" + Art + "&3=" + Info + "&4=" + Prei + "&5=" + Begi + "&6=" + Ende));
                 Main beta = new Main();
                 this.Hide();
                 beta.Show();
